@@ -17,7 +17,7 @@ namespace Homework2.Models
             get => _counter;
             set
             {
-                if (value > 5 || value < 0)
+                if (value > 5 || value <= 0)
                     throw new System.ArgumentOutOfRangeException();
                 else
                     _counter = value;
