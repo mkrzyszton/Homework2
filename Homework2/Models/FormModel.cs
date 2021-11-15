@@ -5,14 +5,14 @@ namespace Homework2.Models
 {
     public class FormModel
     {
-        public int? _counter;
+        public int _counter;
 
         [Display(Name = "Imię")]
         [Required]
         public string Name { get; set; }
 
         [Display(Name = "Ilość powtórzeń")]
-        public int? Counter 
+        public int Counter 
         { 
             get => _counter;
             set
